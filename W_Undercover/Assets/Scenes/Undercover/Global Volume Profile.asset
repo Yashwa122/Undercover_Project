@@ -16,10 +16,10 @@ MonoBehaviour:
   m_AdvancedMode: 0
   postExposure:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: 0.88
   contrast:
     m_OverrideState: 1
-    m_Value: -19
+    m_Value: -13.3
     min: -100
     max: 100
   colorFilter:
@@ -30,12 +30,12 @@ MonoBehaviour:
     showEyeDropper: 1
   hueShift:
     m_OverrideState: 1
-    m_Value: -2
+    m_Value: 0
     min: -180
     max: 180
   saturation:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: 6.51
     min: -100
     max: 100
 --- !u!114 &-3962384566820901367
@@ -98,14 +98,14 @@ MonoBehaviour:
     m_Value: 203.82
   meanFreePath:
     m_OverrideState: 1
-    m_Value: 400
+    m_Value: 493.4
     min: 1
   enableVolumetricFog:
     m_OverrideState: 1
     m_Value: 0
   albedo:
     m_OverrideState: 1
-    m_Value: {r: 1, g: 1, b: 1, a: 1}
+    m_Value: {r: 0.844502, g: 0, b: 1, a: 1}
     hdr: 0
     showAlpha: 1
     showEyeDropper: 1
@@ -116,7 +116,7 @@ MonoBehaviour:
     max: 1
   depthExtent:
     m_OverrideState: 1
-    m_Value: 203.82
+    m_Value: 28.43
     min: 0.1
   denoisingMode:
     m_OverrideState: 1
@@ -273,12 +273,12 @@ MonoBehaviour:
     min: 0
   aerosolDensity:
     m_OverrideState: 1
-    m_Value: 0.01192826
+    m_Value: 0
     min: 0
     max: 1
   aerosolTint:
     m_OverrideState: 1
-    m_Value: {r: 0.9, g: 0.9, b: 0.9, a: 1}
+    m_Value: {r: 1, g: 0, b: 0.78170156, a: 1}
     hdr: 0
     showAlpha: 0
     showEyeDropper: 1
@@ -298,7 +298,7 @@ MonoBehaviour:
     max: 10
   groundTint:
     m_OverrideState: 1
-    m_Value: {r: 0.04552332, g: 0.11573401, b: 0.31132078, a: 1}
+    m_Value: {r: 1, g: 0, b: 0.7325125, a: 1}
     hdr: 0
     showAlpha: 0
     showEyeDropper: 0
@@ -310,7 +310,7 @@ MonoBehaviour:
     m_Value: {fileID: 0}
   groundEmissionMultiplier:
     m_OverrideState: 1
-    m_Value: 1
+    m_Value: 23.1
     min: 0
   planetRotation:
     m_OverrideState: 1
