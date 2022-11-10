@@ -1,4 +1,3 @@
-/*
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -16,6 +15,11 @@ public class EnemyAI : MonoBehaviour
     public Vector3 walkpoint;
     bool walkpointset;
     public float walkpointrange;
+
+    bool playerInSightRange;
+    bool playerInAttackRange;
+    float sightRange;
+    float attackRange;
 
     private void Awake()
     {
@@ -70,4 +74,3 @@ public class EnemyAI : MonoBehaviour
         transform.LookAt(player);
     }
 }
-*/

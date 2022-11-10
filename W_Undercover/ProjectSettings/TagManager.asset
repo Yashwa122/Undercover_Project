@@ -11,8 +11,8 @@ TagManager:
   - floor
   - Water
   - UI
-  - 
-  - 
+  - player
+  - Buildings
   - PostProcessing
   - Not in Reflection
   - 
